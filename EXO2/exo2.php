@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,11 +12,11 @@
         <?php
         $number1 = 0;
         $number2 = 2;
-            while ($number1 <= 20){
-            var_dump ($number1 * $number2);
-            $number1++; }
-        ?>
-    </p>
+        while ($number1 <= 20) : ?>
+    <p><?= $number1 * $number2; ?></p>
+<?php $number1 ++;
+        endwhile; ?>
+</p>
 
 </body>
 
