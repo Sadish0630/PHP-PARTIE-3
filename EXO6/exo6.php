@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,11 @@
 </head>
 
 <body>
-    <p>
-        <?php
-        for ($i = 20; $i >= 1; $i--) {
-            var_dump('c\'est presque bon.');
-        }
-        ?>
-    </p>
-
+    <?php
+    for ($d = 20; $d > 1; $d--) :
+    ?>
+        <p><?= 'C\'est presque bon' ?></p>
+    <?php endfor; ?>
 </body>
 
 </html>
