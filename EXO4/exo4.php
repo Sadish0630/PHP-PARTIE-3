@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,13 @@
 <body>
     <p>
         <?php
-        $i = 1;
-        for($i = 1; $i < 10; $i += $i/2 ) {
-            var_dump($i); }
+        $var = 0;
+        while ($var <= 10) {
+            echo $var;
+        }
+        $var += $var / 2
         ?>
     </p>
-
 </body>
 
 </html>
