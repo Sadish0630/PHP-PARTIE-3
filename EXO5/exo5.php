@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,10 @@
 <body>
     <p>
         <?php
-        for ($i = 1; $i <= 15; $i++) {
-            var_dump('on y arrive presque.');
-        }
+        for ($i = 1; $i <= 15; $i++) :
         ?>
-    </p>
+    <p><?= 'On y est presque' ?></p>
+<?php endfor; ?>
 
 </body>
 
