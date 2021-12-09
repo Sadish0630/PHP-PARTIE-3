@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,14 +8,11 @@
 </head>
 
 <body>
-    <p>
-        <?php
-        $total = 0;
-            for ($i = 0; $i < 10; $i++) {
-            ($total += $i);}
-                echo $total
-        ?>
-    </p>
+    <?php
+    $i = 0;
+    while ($i < 10) : ?>
+        <p><?= ++$i ?></p>
+    <?php endwhile; ?>
 
 </body>
 
