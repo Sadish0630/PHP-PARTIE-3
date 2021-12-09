@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,10 @@
 <body>
     <p>
         <?php
-        for ($i = 200; $i >= 1; $i -= 12) {
-            var_dump('Enfin!!!');
-        }
+        for ($i = 200; $i >= 0; $i -= 12) :
         ?>
-    </p>
+    <p><?php 'Enfin!!!' ?></p>
+<?php endfor; ?>
 
 </body>
 
